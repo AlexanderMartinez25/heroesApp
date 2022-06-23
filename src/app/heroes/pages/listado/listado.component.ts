@@ -15,7 +15,6 @@ import { HeroesService } from '../../services/heroes.service';
 export class ListadoComponent implements OnInit {
 
   constructor(private heroesService: HeroesService) { }
-
   heroes: Heroe[] = [];
 
   ngOnInit(): void {
